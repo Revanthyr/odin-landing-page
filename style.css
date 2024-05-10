@@ -1,15 +1,29 @@
 body{
    margin:0;
+   display:flex;
+   flex-direction:column;
+   justify-content:flex-end;
 }
 
 .header{
-    background-color:#1F2937;
+    /* background-color:#1F2937;
     display:flex;
     justify-content:space-between;
     margin-right:0px;
     padding-bottom:100px;
     padding-left:200px;
     padding-right:200px;
+    padding-top:20px;
+    gap:20px; */
+
+
+    background-color: #1F2937;
+    display:flex;
+    gap:500px;
+    padding-left:200px;
+    padding-right:200px;
+    padding-bottom:50px;
+    justify-content:center;
     padding-top:20px;
     
 }
@@ -38,7 +52,9 @@ a{
     gap:20px;
     padding-left:200px;
     padding-right:200px;
-    padding-bottom:50px;
+    padding-bottom:100px;
+    justify-content:center;
+    padding-top:50px;
 }
 .introduction{
     background-color: #1F2937;
@@ -86,4 +102,98 @@ button{
 }
 .button-container{
     display:flex;
+}
+.main-content{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+    padding-bottom:50px;
+}
+.images{
+    display:flex;
+    flex-direction:row;
+    gap:55px;
+}
+.image img{
+    height:200px;
+    border-radius:10px;
+}
+h3{
+    font-size:36px;
+    font-family:roboto,sans-serif;
+    font-weight:900;
+}
+.caption{
+    font-family:"Roboto",sans-serif;
+   font-size:18px;
+   color:#75787e;
+   text-decoration: none; 
+}
+.quote-content{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color:#E5E7EB;
+    padding:50px;
+}
+.quoter{
+    margin-left:550px;
+    font-weight:bold;
+    font-family:roboto,sans-serif;
+    font-size:22px;
+}
+.quote{
+    font-size:36px;
+    font-family:roboto,sans-serif;
+    font-style: italic;
+    font-weight:275;
+}
+
+.cta{
+    background-color:#3882F6;
+    display:flex;
+    flex-basis:800px;
+    justify-content:center;
+    gap:10px;
+    padding-left:50px;
+    padding-right:50px;
+    height:100px;
+    align-items:center;
+    border-radius:10px;
+}
+.bottom-section{
+    display:flex;
+    justify-content:center;
+    padding-top:100px;
+    padding-bottom:50px;
+}
+.text-container{
+    flex-grow:1;
+}
+#button{
+    flex-grow:.5;
+    border-color:white;
+    border-width: 2px;;
+}
+.bold{
+    color:#F9FAF8;
+    font-weight:bold;
+    font-size:24px;
+    font-family:"Roboto",sans-serif;
+}
+.text-container .caption{
+    color:white;
+}
+
+.footer{
+    background-color:#1F2937;
+    padding:30px;
+    margin-top:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    font-family:roboto,sans-serif;
+    margin-bottom:0px;
 }
